@@ -1,0 +1,172 @@
+h2,
+p,
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: auto;
+    font-weight: bolder;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav a:hover {
+    color: green;
+}
+
+.nav-link {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.btn-book {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.main-sec {
+    text-align: center;
+}
+
+.mainbody {
+    background-image: url(background.jpg);
+    height: 575px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text {
+    color: rgb(121, 16, 39);
+}
+
+.traveltext {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.element-btn {
+    display: block;
+    background-color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.center-button {
+    background-color: white;
+}
+
+.insidetravelbtn {
+    background-color: rgb(189, 127, 13);
+    padding: 0 30px 0 30px;
+    height: 20px;
+}
+
+.outsidetravelbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onehead {
+    padding: 15px;
+}
+
+/* widget css*/
+.textZero,
+.textZerop {
+    color: #ffffff;
+}
+
+.widget {
+    padding: 5px 0 105px 0;
+    background-image: url(background2.jpg);
+    background-position: top;
+}
+
+.widgetZero {
+    text-align: center;
+}
+
+.widgetContainer {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+
+    .widgetZero {
+        height: 20px;
+    }
+
+    .widgetContainer {
+        display: block;
+    }
+
+    .widgetOne {
+        margin-right: 0;
+        margin-top: 85px;
+        margin-bottom: 10px;
+    }
+}
+
+.widFonts{
+    margin: 20px;
+}
+
+.widgetOne {
+    text-align: center;
+    padding: 20px;
+    height: 60px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.footerSection {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 15vh;
+}
+
+.footText{
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .footerSection {
+        height: auto;
+    }
+}
